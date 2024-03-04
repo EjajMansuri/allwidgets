@@ -29,7 +29,9 @@ class MediaQQuery extends StatefulWidget {
 class _MediaQueryState extends State<MediaQQuery> {
   @override
   Widget build(BuildContext context) {
+
     var _mediaQuery=MediaQuery.of(context);
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Media QUery'),

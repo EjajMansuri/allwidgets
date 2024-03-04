@@ -39,8 +39,6 @@ class _GridViewWidgetState extends State<GridViewWidget> {
       Colors.purple,
       Colors.purpleAccent,
       Colors.teal,
-
-
     ];
     return Scaffold(
       appBar: AppBar(
